@@ -1,7 +1,6 @@
 import speech_recognition as sr
 import turtle as t
 
-# obtain audio from the microphone
 r = sr.Recognizer()
 def dajSlowo():	
 	with sr.Microphone() as source:
